@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package latihankuis;
+import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
@@ -39,6 +40,24 @@ public class HalamanLogin extends JFrame implements ActionListener {
         add(passwordTextField);
         add(tombolLogin);
         add(tombolReset);
+        
+        // Ubah warna background untuk input username & password
+        usernameTextField.setBackground(Color.decode("#BCCCDC")); 
+        passwordTextField.setBackground(Color.decode("#BCCCDC")); 
+
+        // Ubah warna teks di dalam input field
+        usernameTextField.setForeground(Color.decode("#102C57")); 
+        passwordTextField.setForeground(Color.decode("#102C57")); 
+
+
+         // mau ganti warna button 
+        tombolLogin.setBackground(Color.decode("#D9EAFD"));
+        tombolReset.setBackground(Color.decode("#BCCCDC"));
+        
+       
+        // mau ganti tulisan di dalam button
+        tombolLogin.setForeground(Color.decode("#102C57"));
+        tombolReset.setForeground(Color.decode("#102C57"));
 
         tulisan.setBounds(210, 20, 150, 24);
         usernameLabel.setBounds(20, 84, 440, 12);

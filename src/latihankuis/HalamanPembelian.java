@@ -46,6 +46,8 @@ class HalPembelian extends JFrame {
         JLabel totalLabel = new JLabel();
         totalLabel.setBounds(20, 160, 300, 25);
         add(totalLabel);
+        
+
 
         // Event handler untuk tombol beli
         beliButton.addActionListener(e -> {
