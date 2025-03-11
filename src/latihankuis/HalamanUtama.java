@@ -14,7 +14,7 @@ import javax.swing.*;
  */
 public class HalamanUtama extends JFrame implements ActionListener {
     JLabel LabelSelamatDatang = new JLabel();
-    JLabel LabelPilihanMenu = new JLabel("Silahkan pilih DVD yang akan dibeli ");
+    JLabel LabelPilihanMenu = new JLabel("Owkey Silahkan pilih DVD yang akan kamu dibeli yaw ");
     JButton anakButton = new JButton("DVD Anak");
     JButton dewasaButton = new JButton("DVD Dewasa");
     JButton lansiaButton = new JButton("DVD Lansia");
@@ -22,7 +22,7 @@ public class HalamanUtama extends JFrame implements ActionListener {
 
     // Perbaikan: Konstruktor menerima parameter `username`
     HalamanUtama(String username) {
-        setTitle("INI HOME");
+        setTitle("Ini Halaman Utama");
         setSize(720, 480);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -30,7 +30,7 @@ public class HalamanUtama extends JFrame implements ActionListener {
         setLayout(null);
 
         // Menampilkan pesan selamat datang dengan username
-        LabelSelamatDatang.setText("Selamat Datang " + username + " Anomali");
+        LabelSelamatDatang.setText(" yipie, Selamat Datang " + username + " imoet :] ");
         LabelSelamatDatang.setFont(new Font("Times New Roman", Font.BOLD, 24));
         LabelSelamatDatang.setBounds(20, 40, 600, 30);
 
@@ -40,7 +40,7 @@ public class HalamanUtama extends JFrame implements ActionListener {
         anakButton.setBounds(20, 150, 150, 30);
         dewasaButton.setBounds(220, 150, 150, 30);
         lansiaButton.setBounds(420, 150, 150, 30);
-        logoutButton.setBounds(20, 300, 150, 30);
+        logoutButton.setBounds(20, 200, 550, 30);
 
         // Menambahkan ActionListener
         anakButton.addActionListener(this);

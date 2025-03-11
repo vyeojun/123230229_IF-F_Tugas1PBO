@@ -11,9 +11,9 @@ import javax.swing.*;
  * @author HP
  */
 public class HalamanLogin extends JFrame implements ActionListener {
-    JLabel tulisan = new JLabel("Login Page");
+    JLabel tulisan = new JLabel("Enih, Halaman Login");
     JLabel usernameLabel = new JLabel("Username: ");
-    JLabel passwordLabel = new JLabel("Pass: ");
+    JLabel passwordLabel = new JLabel("Password: ");
  
     
     JTextField usernameTextField = new JTextField();
@@ -26,7 +26,7 @@ public class HalamanLogin extends JFrame implements ActionListener {
     HalamanLogin() {
         setVisible(true); 
         setSize(720, 480);
-        setTitle("Ini halaman Login");
+        setTitle("Ini halaman Login yaw");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setAlwaysOnTop(true);
